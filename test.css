@@ -1,0 +1,299 @@
+body{
+    background-color: #323232;
+}
+header{
+    background-color: #323332;
+    color: #abacab;
+}
+header a{
+    color: inherit;
+    text-decoration: none;
+}
+header a:hover{
+    color: #d7ba7d;
+}
+nav{
+    position: relative;
+    padding-bottom: 0;
+    font-size: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    font-family: Verdana, sans-serif;
+}
+nav ul li{
+    margin: 0 auto;
+    padding-left: 10px;
+}
+h2{
+    font-family: Verdana;
+    font-size: 55px;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: #323332;
+    text-align: center;
+    color: #abacab;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+footer div a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#head{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#head1{
+    font-size: 90px;
+    font-family: 'Lucida Sans';
+    font-weight: bolder;
+    padding-left: 50px;
+}
+#navBar{
+    background-color: #323332;
+}
+#navbarContent{
+    background-color: #323332;
+}
+#toggleList{
+    background-color: #323332;
+}
+#dropdownList{
+    background-color: #323332;
+    border: #22252a 0px solid;
+    text-align: center;
+    font-size: 19px;
+}
+#dropdownItem{
+    color: #abacab;
+}
+
+
+
+.content{
+    font-family: 'Lucida Sanss';
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    background-color: lightgray;
+}
+.contentHead{
+    font-size: 70px;
+}
+.textbox{
+    width: 450px;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 3px;
+}
+.text{
+    margin: 0 auto;
+    font-family: Verdana;
+    width: 400px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.ovText{
+    margin: 0 auto;
+    font-family: verdana;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.picture{
+    padding-top: 20px;
+    width: 250px;
+}
+.img{
+    padding-top: 20px;
+    width: 360px;
+}
+.contain{
+    width: 450px;
+    max-height: 400px;
+    display: inline-flexbox;
+    vertical-align: top;
+    overflow: hidden;
+    padding-top: 5px;
+}
+.contain img{
+    transition: .3s;
+}
+.box{
+    position: relative;
+    transform: translateX(-9%) translateY(-86%);
+    padding-top: 0px;
+    left: -130%;
+    width: 550px;
+    height: 450px;
+    text-align: center;
+    transition: .5s;
+    background: #22252ada;
+    color: #abacab;
+
+}
+.contain:hover .box{
+    left: 0;
+}
+.contain:hover img{
+    transform: scale(1.2);
+}
+.imgText{
+    font-size: 23px;
+    font-family: Verdana;
+}
+.futureList1{
+    margin: 0 auto;
+    display: inline;
+    padding-top: 30px;
+}
+.futureList2{
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+.futureTextL{
+    width: 550px;
+    padding-left: 40px;
+    padding-top: 10px;
+    position: relative;
+    text-align: left;
+    font-family: verdana;
+    font-size: 25px;
+}
+.futureTextR{
+    width: 550px;
+    padding-right: 40px;
+    padding-top: 10px;
+    position: relative;
+    text-align: right;
+    font-family: verdana;
+    font-size: 25px;
+}
+.futureHL{
+    font-size: 50px;
+    font-family: verdana;
+    position: relative;
+    text-align: left;
+}
+.translateBox{
+    width: 1200px;
+    margin: 0 auto;
+}
+.intro{
+    
+    width: 1200px;
+    margin: 0 auto;
+    display: inline-flex;
+    text-align: left;
+}
+.google{
+    background-image: url('pictures/googleBody1.png');
+    background-size: 1200px;
+}
+.googleContent{
+    width: 550px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: Helvetica;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.googleContent span, .deeplContent span, .microContent span, .amazonContent span{
+    color: #E15241;
+}
+.deepl{
+    background-image: url('pictures/deeplBody.png');
+    background-size: 1200px;
+}
+.deeplContent{
+    width: 550px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: -apple-system;
+    font-size: 20px;
+}
+.micro{
+    background-image: url('pictures/microsoftBody.png');
+    background-size: 1200px;
+}
+.microContent{
+    width: 550px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: system-ui;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.amazon{
+    background-image: url('pictures/amazonBody.png');
+    background-size: 1200px;
+}
+.amazonContent{
+    width: 450px;
+    margin-left: 50px;
+    margin-right: 25px;
+    font-family: arial;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+
+
+
+#bottom{
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 7px;
+    font-size: 20px;
+    font-family: Verdana;
+}
+#footHeadline{
+    font-size: 45px;
+    font-family: Verdana;
+    font-weight: bold;
+    padding-top: 10px;
+}
+#footLine{
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: 100;
+}
+#copyright{
+    font-size: 20px;
+    font-family: Verdana;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    border-bottom: #abacab 2px solid;
+    width: 480px;
+    margin: 0 auto;
+}
+.footList1{
+    list-style: none;
+    margin: 0 auto;
+    display: inline;
+    padding-top: 30px;
+}
+#footList2{
+    list-style: none;
+    margin: 0 auto;
+    display: inline;
+    padding-top: 30px;
+}
+.footName{
+    padding-bottom: 7px;
+    font-family: 'Lucida Sans';
+    font-size: 30px;
+}
