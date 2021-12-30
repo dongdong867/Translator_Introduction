@@ -249,6 +249,12 @@ footer div a{
     padding-bottom: 10px;
     font-size: 20px;
 }
+.solutionText{
+    margin: 0 auto;
+    font-family: Verdana;
+    font-size: 25px;
+    width: 80%;
+}
 
 
 
@@ -256,8 +262,8 @@ footer div a{
 #bottom{
     margin: 0 auto;
     display: flex;
-    padding-bottom: 7px;
-    font-size: 20px;
+    margin-bottom: 7px;
+    font-size: 18px;
     font-family: Verdana;
 }
 #footHeadline{
@@ -280,13 +286,7 @@ footer div a{
     width: 480px;
     margin: 0 auto;
 }
-.footList1{
-    list-style: none;
-    margin: 0 auto;
-    display: inline;
-    padding-top: 30px;
-}
-#footList2{
+.footList{
     list-style: none;
     margin: 0 auto;
     display: inline;
@@ -295,5 +295,5 @@ footer div a{
 .footName{
     padding-bottom: 7px;
     font-family: 'Lucida Sans';
-    font-size: 30px;
+    font-size: 28px;
 }
