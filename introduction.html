@@ -111,12 +111,12 @@
                     <h1>谷歌</h1> <br> <br>
                     谷歌認為<span>「翻譯」在全球網路資訊流通扮演了重要角色</span>，像目前全球網路上有 50% 內容以英文呈現，但卻只有 20%
                     人口以英語為其主要語言，因此讓線上翻譯變得更快、更好，就成了加速網路發展的關鍵因素之一。<br><br>
-                    而到現在，Google Translate 已經累積了驚人的使用量，<span>每天平均翻譯量超過 10 億次，並且每月也有超過 10 億的活躍使用者使用。</span><br><br>
-                    Julie Cattiau 進一步解釋，十年前 Google Translate 是以<span>片語式機器翻譯（Phrase-Based Machine Translation）</span>作
+                    而到現在，谷歌翻譯已經累積了驚人的使用量，<span>每天平均翻譯量超過 10 億次，並且每月也有超過 10 億的活躍使用者使用。</span><br><br>
+                    Julie Cattiau 進一步解釋，十年前谷歌翻譯是以<span>片語式機器翻譯（Phrase-Based Machine Translation）</span>作
                     為主要運算方式，將句子切割成小塊語言單位，之後針對各別語言塊進行翻譯，最後再將這些語言塊組合成看似句子的目標語言。在此同時，<span>Google
                         也以收集搜尋索引來建構翻譯模型</span>，收集並翻譯了數十億的網路文件，包含官方文件、新聞文章、書籍等。但片語式機器翻譯有其極限，稍微複雜一點的句子其語意就無法有效連貫。<br><br>
-                    不過從 2015 年開始，Google Translate 以 TensorFlow 為核心開始執行專案，<span>導入了端對端學習架構的神經機器翻譯系統（Google Neural Machine
-                        Translation, GNMT，能整個句子視為一個單位進行翻譯</span>，並讓系統從數百萬的例子學習，提昇翻譯品質。每組 GNMT 模型都需要超過 1 億筆訓練案例，2-3
+                    不過從 2015 年開始，谷歌翻譯以 TensorFlow 為核心開始執行專案，<span>導入了端對端學習架構的神經機器翻譯系統（Google Neural Machine
+                        Translation, GNMT)，能整個句子視為一個單位進行翻譯</span>，並讓系統從數百萬的例子學習，提昇翻譯品質。每組 GNMT 模型都需要超過 1 億筆訓練案例，2-3
                     週的訓練時間才能完成，不過到目前為止，原先預期需耗時 36 個月才能完成神經機器導入專案成果卻超乎預期，僅耗時 13.5 個月就到達目標。
                 </div>
             </div>
@@ -128,40 +128,30 @@
                 <div class="deeplContent">
                     <h1>DeepL</h1> <br><br>
                     DeepL Translator translates texts using <span>artificial neural networks</span>. These networks are
-                    trained on
-                    many millions of translated texts. But, there are several improvements to create the great
+                    trained on many millions of translated texts. But, there are several improvements to create the great
                     translator, mainly in four ways. <br><br>
+
                     The first we want to mention is the Network architecture. It is well known that <span> most publicly
-                        available translation systems are direct modifications of the Transformer architecture </span>.
-                    Of course,
-                    the neural networks of DeepL also contain parts of this architecture. However, there are also
+                    available translation systems are direct modifications of the Transformer architecture</span>.
+                    Of course, the neural networks of DeepL also contain parts of this architecture. However, there are also
                     <span>significant differences in the topology of the networks</span> that lead to an overall
-                    significant
-                    improvement in translation quality over the public research state of the translation. <br><br>
+                    significant improvement in translation quality over the public research state of the translation. <br><br>
 
                     Second, <span>training data</span> is another point. <span>They place great emphasis on the targeted
-                        acquisition of
-                        special training data</span> that helps their network to achieve higher translation quality. For
-                    this
-                    purpose, they have developed a special crawlers that<span>automatically find translations on the
-                        internet</span>
-                    and assess their quality. <br><br>
+                    acquisition of special training data</span> that helps their network to achieve higher
+                    translation quality. For this purpose, they have developed a special crawlers
+                    that<span> automatically find translations on the internet</span> and assess their quality. <br><br>
 
                     Third, there are also differences between training methodology. In public research, training
                     networks are usually trained using the “<span>supervised learning</span>” method. The network is
-                    shown different
-                    examples over and over again. Besides using this method, they also use other techniques from other
-                    areas of machine learning when training the neural networks. This also allows them to achieve
-                    significant improvements. <br><br>
+                    shown different examples over and over again. Besides using this method, they also use other techniques from other
+                    areas of machine learning when training the neural networks. This also allows them to achieve significant improvements. <br><br>
 
                     The last one is <span>network size</span>. The size of traditional networks are so large that they
-                    can only be
-                    trained in a distributed fashion on very large dedicated compute clusters. However, in their
+                    can only be trained in a distributed fashion on very large dedicated compute clusters. However, in their
                     research they attach great importance to the fact <span>if the parameters of the network are used
-                        very
-                        efficiently</span>. This is how they have managed to achieve a similar translation quality even
-                    with
-                    smaller and faster networks. They can therefore also offer very high translation quality to users of
+                    very efficiently</span>. This is how they have managed to achieve a similar translation quality even
+                    with smaller and faster networks. They can therefore also offer very high translation quality to users of
                     our free service. <br><br>
 
                     DeepL's core competitive advantage is its crawler and machine learning system. The former is
@@ -194,22 +184,26 @@
                 <div class="microContent">
                     <br>
                     <h1>Microsoft</h1><br><br>
-                    "<span>Statistical machine translation</span>" is the main technology behind Microsoft Translator, which is based
+                    "<span>Statistical machine translation</span>" is the main technology behind Microsoft Translator,
+                    which is based
                     on Microsoft's research in the field of natural language for more than 10 years, and incorporates
                     the principles of statistics and machine learning. <br><br>
                     Simply put, this translation system turns "translation" into a machine learning topic, allowing the
-                    computer to continuously <span>judge and learn from the human translations and language conversion results in the training data</span>, 
-                    and to promote the self-improvement and optimization of the system algorithm through continuous error correction.
+                    computer to continuously <span>judge and learn from the human translations and language conversion
+                        results in the training data</span>,
+                    and to promote the self-improvement and optimization of the system algorithm through continuous
+                    error correction.
                     <br><br>
                     Through statistical modeling techniques and efficient algorithms, the continuously learning and
                     optimizing machine translation system learns to match the most appropriate translation results with
-                    the <span>contextual meaning of words and rigid grammatical rules </span>instead of the contextual meaning of
+                    the <span>contextual meaning of words and rigid grammatical rules </span>instead of the contextual
+                    meaning of
                     words.
                 </div>
                 <div class="microContent">
                     <br>
                     <h1>微軟</h1><br><br>
-                    “<span>統計機器翻譯</span>”是 Microsoft Translator 背後的主要技術，它以微軟十幾年來在自然語言領域的研究為基礎，加入了統計學與機器學習的原理。 <br><br>
+                    “<span>統計機器翻譯</span>”是微軟翻譯器背後的主要技術，它以微軟十幾年來在自然語言領域的研究為基礎，加入了統計學與機器學習的原理。 <br><br>
                     簡單地說，這套翻譯體系將“翻譯”轉變成了一個機器學習的課題，讓計算機不斷地<span>對訓練數據中的人工譯文和語言轉換結果進行判斷與學習</span>，在不斷的糾錯與改正中，促進系統算法的自我完善與優化。<br><br>
                     通過統計建模技術和高效的算法，不斷學習優化的機器翻譯系統能學會<span>根據上下文的語境</span>，而不是單詞的意思和生硬的語法規則來匹配最恰當的翻譯結果。
                 </div>
@@ -222,16 +216,19 @@
                 <div class="amazonContent">
                     <br>
                     <h1>Amazon</h1><br>
-                    Amazon Translate is a neural machine translation service that provides fast, high-quality,
+                    Amazon Translate is a <span>neural machine translation service</span> that provides fast, high-quality,
                     affordable and customizable language translations. <br><br>
-                    Neural machine translation is a form of language translation automation that<span> uses deep learning
-                    models </span>to provide more accurate and natural sounding translations than traditional statistical and
-                    rule-based translation algorithms. <br><br>
+
+                    Neural machine translation is a form of language translation automation that<span> uses deep learning models </span>
+                    to provide more accurate and natural sounding translations than traditional statistical and rule-based translation algorithms. <br><br>
+
                     With Amazon Translate, you can easily translate large amounts of text for analysis and effectively
                     support cross-lingual communication between users by localizing content such as websites and
                     applications for different users. <br><br>
+
                     Intento recently ranked Amazon Translate as a top machine translation provider for 2020 across 14
                     language pairs, 16 industries and 8 content types. <br><br>
+
                     Amazon adopted deep-learning technology which can provide more accurate and more fluent translations
                     than the traditional approach. This neural machine translation system is<span> based on neural network</span>,
                     not like the traditional way that machine translation is based on short sentences. It only
@@ -243,8 +240,8 @@
                     <h1>亞馬遜</h1> <br>
                     亞馬遜翻譯是一項神經機器翻譯服務，可提供快速、高品質、價格合理且可自訂的語言翻譯。<br><br>
                     神經機器翻譯是語言翻譯自動化的一種形式，<span>使用深度學習模型</span>提供比傳統統計和規則式翻譯演算法更為準確且更自然發音的翻譯。<br><br>
-                    藉助 Amazon Translate，您可以為不同的使用者當地語系化網站和應用程式等內容，輕鬆翻譯大量文字以進行分析，並有效地支援使用者間的跨語言交流。<br><br>
-                    Intento 最近在 14 種語言對、16 個產業和 8 種內容類型中，將 Amazon Translate 評為 2020 年頂級機器翻譯供應商。<br><br>
+                    藉助亞馬遜翻譯，您可以為不同的使用者當地語系化網站和應用程式等內容，輕鬆翻譯大量文字以進行分析，並有效地支援使用者間的跨語言交流。<br><br>
+                    Intento 最近在 14 種語言對、16 個產業和 8 種內容類型中，將亞馬遜翻譯評為 2020 年頂級機器翻譯供應商。<br><br>
 
 
                     亞馬遜採用了深度學習技術，可以提供比傳統方法更準確、更流暢的翻譯結果。這種神經翻譯系統是<span>建構在神經網路之上</span>的，不像傳統機器逐字逐句的翻譯，而是根據前後文來執行翻譯。
