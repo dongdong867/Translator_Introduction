@@ -87,16 +87,21 @@ footer div a{
     text-align: center;
     width: 90%;
     background-color: lightgray;
+    padding-bottom: 20px;
 }
 .contentHead{
     font-size: 70px;
 }
 .textbox{
-    width: 450px;
+    width: 27%; /*450px*/
     margin: 0 auto;
     display: inline-block;
     vertical-align: top;
     padding-top: 3px;
+}
+.blank{
+    display: inline-block;
+    padding-left: 5%;
 }
 .text{
     margin: 0 auto;
@@ -249,13 +254,6 @@ footer div a{
     padding-bottom: 10px;
     font-size: 20px;
 }
-.solutionText{
-    margin: 0 auto;
-    font-family: Verdana;
-    font-size: 25px;
-    width: 80%;
-}
-
 
 
 
