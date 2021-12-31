@@ -56,187 +56,194 @@
     </header>
     <div class="content">
         <div id="Google">
-            <img src="pictures/googleHeader.png" alt="" class="translateBox" style="padding-top: 20px;">
-            <div class="intro google">
-                <div class="googleContent">
-                    <br>
-                    <h1>Google</h1> <br><br>
-                    Google believes that <span>"translation" plays an important role</span> in the flow of information
-                    on the world wide web, as 50% of the content on the world wide web is in English, but only 20% of 
-                    the population speaks English as their primary language. Therefore, making online translation faster 
-                    and better has become one of the key factors to accelerate the development of the Internet. <br><br>
+            <img src="pictures/googleHeader.png" alt="" class="translateBox" style="padding-top: 40px;">
+            <a href="https://translate.google.com" target="_blank">
+                <div class="intro google" style="color: black;">
+                    <div class="googleContent">
+                        <br>
+                        <h1>Google</h1> <br><br>
+                        Google believes that <span>"translation" plays an important role</span> in the flow of information
+                        on the world wide web, as 50% of the content on the world wide web is in English, but only 20% of 
+                        the population speaks English as their primary language. Therefore, making online translation faster 
+                        and better has become one of the key factors to accelerate the development of the Internet. <br><br>
 
-                    By now, Google Translate has accumulated an amazing amount of usage, with an average of <span>over 
-                    1 billion translations per day and over 1 billion active users per month.</span><br><br>
+                        By now, Google Translate has accumulated an amazing amount of usage, with an average of <span>over 
+                        1 billion translations per day and over 1 billion active users per month.</span><br><br>
 
-                    Ten years ago, Google Translate used <span>Phrase-Based Machine Translation<sup>1</sup></span>  as the main
-                    computing method, cutting sentences into small language units, then translating each language block, 
-                    and finally combining these language blocks into a target language that looks like a sentence. 
-                    Finally, these language blocks are combined into a target language that looks like a sentence. 
-                    At the same time, <span>Google has also built a translation model by collecting search indexes</span>, 
-                    and has collected and translated billions of web documents, including official documents, news articles, 
-                    books, and so on. However, there is a limit to the translation by machine, and the semantic meaning of 
-                    slightly more complex sentences cannot be effectively linked. <br><br>
+                        Ten years ago, Google Translate used <span>Phrase-Based Machine Translation<sup>1</sup></span>  as the main
+                        computing method, cutting sentences into small language units, then translating each language block, 
+                        and finally combining these language blocks into a target language that looks like a sentence. 
+                        Finally, these language blocks are combined into a target language that looks like a sentence. 
+                        At the same time, <span>Google has also built a translation model by collecting search indexes</span>, 
+                        and has collected and translated billions of web documents, including official documents, news articles, 
+                        books, and so on. However, there is a limit to the translation by machine, and the semantic meaning of 
+                        slightly more complex sentences cannot be effectively linked. <br><br>
 
-                    However, since 2015, Google Translate has been running a project with TensorFlow as its core,
-                    introducing <span>Google Neural Machine Translation (GNMT), an end-to-end learning framework<sup>2</sup>  that allows the
-                    entire sentence to be translated as a unit</span>, and allows the system to learn from millions of data. The
-                    system learns from millions of examples to improve the quality of translation. Each GNMT model requires more 
-                    than 100 million training cases and 2-3 weeks of training time to complete. But so far the project which was 
-                    expected to take 36 months to complete, has exceeded expectations, taking only 13.5 months to reach its goal. <br><br>
+                        However, since 2015, Google Translate has been running a project with TensorFlow as its core,
+                        introducing <span>Google Neural Machine Translation (GNMT), an end-to-end learning framework<sup>2</sup>  that allows the
+                        entire sentence to be translated as a unit</span>, and allows the system to learn from millions of data. The
+                        system learns from millions of examples to improve the quality of translation. Each GNMT model requires more 
+                        than 100 million training cases and 2-3 weeks of training time to complete. But so far the project which was 
+                        expected to take 36 months to complete, has exceeded expectations, taking only 13.5 months to reach its goal. <br><br>
 
-                    <span class="definition" style="color: black;">
-                        <sup>1</sup> This translation way split the original text into words or phrases first, then use statistics and large 
-                        amount of existing translation data which collected by Google to select the most common translations of these single-character 
-                        phrases. After that, it reconstructs the sentences to make it in correct grammar. <br><br>
-                        
-                        <sup>2</sup> The feature of GNMT is to translate sentences as a unit. When translating a sentence, it encodes each word in 
-                        the sentence into a vector, which represents the meaning of this word and all the words before it. For example, the vector 
-                        of the third character in the sentence represents the combined meaning of the first and second characters and itself.
-                    </span>
+                        <span class="definition" style="color: black;">
+                            <sup>1</sup> This translation way split the original text into words or phrases first, then use statistics and large 
+                            amount of existing translation data which collected by Google to select the most common translations of these single-character 
+                            phrases. After that, it reconstructs the sentences to make it in correct grammar. <br><br>
+                            
+                            <sup>2</sup> The feature of GNMT is to translate sentences as a unit. When translating a sentence, it encodes each word in 
+                            the sentence into a vector, which represents the meaning of this word and all the words before it. For example, the vector 
+                            of the third character in the sentence represents the combined meaning of the first and second characters and itself.
+                        </span>
+                    </div>
+                    <div class="googleContent">
+                        <br>
+                        <h1>谷歌</h1> <br> <br>
+                        谷歌認為<span>「翻譯」在全球網路資訊流通扮演了重要角色</span>，像目前全球網路上有 50% 內容以英文呈現，但卻只有 20%
+                        人口以英語為其主要語言，因此讓線上翻譯變得更快、更好，就成了加速網路發展的關鍵因素之一。<br><br>
+
+                        而到現在，谷歌翻譯已經累積了驚人的使用量，<span>每天平均翻譯量超過 10 億次，並且每月也有超過 10 億的活躍使用者使用。</span><br><br>
+
+                        Julie Cattiau 進一步解釋，十年前谷歌翻譯是以<span>片語式機器翻譯<sup>1</sup> （Phrase-Based Machine Translation)</span>
+                        作為主要運算方式，將句子切割成小塊語言單位，之後針對各別語言塊進行翻譯，最後再將這些語言塊組合成看似句子的目標語言。在此同時，
+                        <span>Google 也以收集搜尋索引來建構翻譯模型</span>，收集並翻譯了數十億的網路文件，包含官方文件、新聞文章、書籍等。
+                        但片語式機器翻譯有其極限，稍微複雜一點的句子其語意就無法有效連貫。<br><br>
+
+                        不過從 2015 年開始，谷歌翻譯以 TensorFlow 為核心開始執行專案，<span>導入了端對端學習架構的神經機器翻譯系統<sup>2</sup> 
+                        (Google Neural Machine Translation, GNMT)，能整個句子視為一個單位進行翻譯</span>，並讓系統從數百萬的例子學習，提昇翻譯品質。
+                        每組 GNMT 模型都需要超過 1 億筆訓練案例，2-3週的訓練時間才能完成，不過到目前為止，原先預期需耗時 36 個月才能完成神經機器導入專案成果卻超乎預期，僅耗時 13.5 個月就到達目標。<br><br>
+
+                        <span class="definition" style="color: black;">
+                            <sup>1</sup> 先將原文拆成單字或片語，接著利用統計學和谷歌收集的大量現存翻譯資料，分別選出這些單字片語最普遍的譯法，再依照文法重組成句子。<br><br>
+
+                            <sup>2</sup> GNMT 的特色是以句子為單位進行翻譯。翻譯句子時，它會將句中每個字編碼成向量，該向量代表著這個字和它之前所有字合在一起的意思。比方說，
+                            句子裡第 3 個字的向量代表第一、第二個字和它自己本身合起來的意義。
+                        </span>
+                    </div>
                 </div>
-                <div class="googleContent">
-                    <br>
-                    <h1>谷歌</h1> <br> <br>
-                    谷歌認為<span>「翻譯」在全球網路資訊流通扮演了重要角色</span>，像目前全球網路上有 50% 內容以英文呈現，但卻只有 20%
-                    人口以英語為其主要語言，因此讓線上翻譯變得更快、更好，就成了加速網路發展的關鍵因素之一。<br><br>
-
-                    而到現在，谷歌翻譯已經累積了驚人的使用量，<span>每天平均翻譯量超過 10 億次，並且每月也有超過 10 億的活躍使用者使用。</span><br><br>
-
-                    Julie Cattiau 進一步解釋，十年前谷歌翻譯是以<span>片語式機器翻譯<sup>1</sup> （Phrase-Based Machine Translation)</span>
-                    作為主要運算方式，將句子切割成小塊語言單位，之後針對各別語言塊進行翻譯，最後再將這些語言塊組合成看似句子的目標語言。在此同時，
-                    <span>Google 也以收集搜尋索引來建構翻譯模型</span>，收集並翻譯了數十億的網路文件，包含官方文件、新聞文章、書籍等。
-                    但片語式機器翻譯有其極限，稍微複雜一點的句子其語意就無法有效連貫。<br><br>
-
-                    不過從 2015 年開始，谷歌翻譯以 TensorFlow 為核心開始執行專案，<span>導入了端對端學習架構的神經機器翻譯系統<sup>2</sup> 
-                     (Google Neural Machine Translation, GNMT)，能整個句子視為一個單位進行翻譯</span>，並讓系統從數百萬的例子學習，提昇翻譯品質。
-                    每組 GNMT 模型都需要超過 1 億筆訓練案例，2-3週的訓練時間才能完成，不過到目前為止，原先預期需耗時 36 個月才能完成神經機器導入專案成果卻超乎預期，僅耗時 13.5 個月就到達目標。<br><br>
-
-                    <span class="definition" style="color: black;">
-                        <sup>1</sup> 先將原文拆成單字或片語，接著利用統計學和谷歌收集的大量現存翻譯資料，分別選出這些單字片語最普遍的譯法，再依照文法重組成句子。<br><br>
-
-                        <sup>2</sup> GNMT 的特色是以句子為單位進行翻譯。翻譯句子時，它會將句中每個字編碼成向量，該向量代表著這個字和它之前所有字合在一起的意思。比方說，
-                        句子裡第 3 個字的向量代表第一、第二個字和它自己本身合起來的意義。
-                    </span>
-                </div>
-            </div>
-            <img src="pictures/googleFooter.png" alt="" class="translateBox" style="padding-bottom: 20px;">
+            </a>
+            <img src="pictures/googleFooter.png" alt="" class="translateBox">
         </div>
+            
         <div id="DeepL">
-            <img src="pictures/deeplHead.png" alt="" class="translateBox" style="padding-top: 20px;">
-            <div class="intro deepl">
-                <div class="deeplContent">
-                    <h1>DeepL</h1> <br><br>
-                    DeepL Translator translates texts using <span>artificial neural networks</span>. These networks are
-                    trained on many millions of translated texts. But, there are several improvements to create the great
-                    translator, mainly in four ways. <br><br>
+            <img src="pictures/deeplHead.png" alt="" class="translateBox" style="padding-top: 80px;">
+            <a href="https://www.deepl.com" target="_blank">
+                <div class="intro deepl" style="color: black;">
+                    <div class="deeplContent">
+                        <h1>DeepL</h1> <br><br>
+                        DeepL Translator translates texts using <span>artificial neural networks</span>. These networks are
+                        trained on many millions of translated texts. But, there are several improvements to create the great
+                        translator, mainly in four ways. <br><br>
 
-                    The first we want to mention is the Network architecture. It is well known that <span> most publicly
-                    available translation systems are direct modifications of the Transformer architecture</span>.
-                    Of course, the neural networks of DeepL also contain parts of this architecture. However, there are also
-                    <span>significant differences in the topology of the networks<sup>3</sup></span>  that lead to an overall
-                    significant improvement in translation quality over the public research state of the translation. <br><br>
+                        The first we want to mention is the Network architecture. It is well known that <span> most publicly
+                        available translation systems are direct modifications of the Transformer architecture</span>.
+                        Of course, the neural networks of DeepL also contain parts of this architecture. However, there are also
+                        <span>significant differences in the topology of the networks<sup>3</sup></span>  that lead to an overall
+                        significant improvement in translation quality over the public research state of the translation. <br><br>
 
-                    Second, <span>training data</span> is another point. <span>They place great emphasis on the targeted
-                    acquisition of special training data</span> that helps their network to achieve higher
-                    translation quality. For this purpose, they have developed a special crawlers
-                    that<span> automatically find translations on the internet</span> and assess their quality. <br><br>
+                        Second, <span>training data</span> is another point. <span>They place great emphasis on the targeted
+                        acquisition of special training data</span> that helps their network to achieve higher
+                        translation quality. For this purpose, they have developed a special crawlers
+                        that<span> automatically find translations on the internet</span> and assess their quality. <br><br>
 
-                    Third, there are also differences between training methodology. In public research, training
-                    networks are usually trained using the “<span>supervised learning</span>” method. The network is
-                    shown different examples over and over again. Besides using this method, they also use other techniques from other
-                    areas of machine learning when training the neural networks. This also allows them to achieve significant improvements. <br><br>
+                        Third, there are also differences between training methodology. In public research, training
+                        networks are usually trained using the “<span>supervised learning</span>” method. The network is
+                        shown different examples over and over again. Besides using this method, they also use other techniques from other
+                        areas of machine learning when training the neural networks. This also allows them to achieve significant improvements. <br><br>
 
-                    The last one is <span>network size</span>. The size of traditional networks are so large that they
-                    can only be trained in a distributed fashion on very large dedicated compute clusters. However, in their
-                    research they attach great importance to the fact <span>if the parameters of the network are used
-                    very efficiently</span>. This is how they have managed to achieve a similar translation quality even
-                    with smaller and faster networks. They can therefore also offer very high translation quality to users of
-                    our free service. <br><br>
+                        The last one is <span>network size</span>. The size of traditional networks are so large that they
+                        can only be trained in a distributed fashion on very large dedicated compute clusters. However, in their
+                        research they attach great importance to the fact <span>if the parameters of the network are used
+                        very efficiently</span>. This is how they have managed to achieve a similar translation quality even
+                        with smaller and faster networks. They can therefore also offer very high translation quality to users of
+                        our free service. <br><br>
 
-                    DeepL's core competitive advantage is its crawler and machine learning system. The former is
-                    capable of crawling a large database of over 1 billion translation results and queries on the web,
-                    while the latter searches and evaluates real translation methods for similar fragments on the web,
-                    making Linguee "<span>the world's first translation search engine</span>" at that time. <br><br>
+                        DeepL's core competitive advantage is its crawler and machine learning system. The former is
+                        capable of crawling a large database of over 1 billion translation results and queries on the web,
+                        while the latter searches and evaluates real translation methods for similar fragments on the web,
+                        making Linguee "<span>the world's first translation search engine</span>" at that time. <br><br>
 
-                    <span class="definition" style="color: black;">
-                        <sup>3</sup> Network topology is also called network layout, or network structure. This is the connection 
-                        method between endpoints in a computer network. The endpoints on the network are connected to each other 
-                        by links, nodes, or switching centers.
-                    </span>
+                        <span class="definition" style="color: black;">
+                            <sup>3</sup> Network topology is also called network layout, or network structure. This is the connection 
+                            method between endpoints in a computer network. The endpoints on the network are connected to each other 
+                            by links, nodes, or switching centers.
+                        </span>
+                    </div>
+                    <div class="deeplContent">
+                        <h1>DeepL</h1> <br><br>
+                        DeepL 翻譯系統使用了<span>人工神經網路</span>來進行翻譯，這些神經網路利用了數百萬個已翻譯語句來訓練機器，但仍有一些措施可以造就一個更好的翻譯機，他們主要被分為四個部分。
+                        <br><br>
+
+                        首先，我們所要提到的是網路架構，眾所周知，<span>大部分公開的翻譯系統都是直接修改 Transformer 的架構</span>。當然， DeepL
+                        的神經網路也包含了這個架構，但是在<span>網路拓撲結構<sup>3</sup> 上有著顯著的不同</span>，這也導致了 DeepL 在整體的翻譯品質上，比公共研究的翻譯器高出許多。 <br><br>
+
+                        接著，<span>數據的訓練</span>也是我們可以著重的部分，<span>在有目的性的利用訓練數據訓練下</span>，系統可以讓他們的神經網路系統達成更高的翻譯品質。為了達到這個目的，DeepL
+                        團隊發明了一個特別的爬蟲方法來<span>讓系統自己在互聯網上尋找翻譯結果</span>，並以此提升自身的翻譯品質。 <br><br>
+
+                        第三點，在訓練方法的部分也有著很大的差異，在公共研究中，翻譯器大部分都是使用「<span>監督式學習</span>」的方法來訓練模型，網路會不斷的展示不同的樣本給系統。
+                        除了使用這個方法，DeepL團隊還使用了其他機器學習的技術來訓練自身的神經網路，這也讓他們能夠取得更金一部的突破。 <br><br>
+
+                        最後一個是<span>網路規模</span>，傳統的網路規模大到只能在專門的計算機上進行分布式的訓練，但在 DeepL
+                        團隊的研究中，他們<span>非常重視參數與網路使用上的效率</span>，這就是他們如何設法實現類似得翻譯品質。即使是在較小、速度較快的伺服器上也能達成相同的高品質翻譯，
+                        因此，DeepL團隊可以向免費用戶提供品質非常高的翻譯結果。<br><br>
+
+                        DeepL 的核心競爭優勢就是爬蟲和機器學習系統，前者能夠抓取網路上超過 10 億句翻譯結果和查詢的大型數據庫，後者在網頁上搜尋相似片段的真實翻譯方法並對其評估，兩者結合使 Linguee
+                        成為了當時「<span>世界上首個翻譯搜尋引擎</span>」。<br><br>
+
+                        <span class="definition" style="color: black;">
+                            <sup>3</sup> 網路拓樸又稱為網路布局，或網路結構。此為電腦網路中，端點間連接的方式。網路上各端點藉由鏈(Link)、節點(Node)或交換中心(Switch)互相連接。
+                        </span>
+                    </div>
                 </div>
-                <div class="deeplContent">
-                    <h1>DeepL</h1> <br><br>
-                    DeepL 翻譯系統使用了<span>人工神經網路</span>來進行翻譯，這些神經網路利用了數百萬個已翻譯語句來訓練機器，但仍有一些措施可以造就一個更好的翻譯機，他們主要被分為四個部分。
-                    <br><br>
-
-                    首先，我們所要提到的是網路架構，眾所周知，<span>大部分公開的翻譯系統都是直接修改 Transformer 的架構</span>。當然， DeepL
-                    的神經網路也包含了這個架構，但是在<span>網路拓撲結構<sup>3</sup> 上有著顯著的不同</span>，這也導致了 DeepL 在整體的翻譯品質上，比公共研究的翻譯器高出許多。 <br><br>
-
-                    接著，<span>數據的訓練</span>也是我們可以著重的部分，<span>在有目的性的利用訓練數據訓練下</span>，系統可以讓他們的神經網路系統達成更高的翻譯品質。為了達到這個目的，DeepL
-                    團隊發明了一個特別的爬蟲方法來<span>讓系統自己在互聯網上尋找翻譯結果</span>，並以此提升自身的翻譯品質。 <br><br>
-
-                    第三點，在訓練方法的部分也有著很大的差異，在公共研究中，翻譯器大部分都是使用「<span>監督式學習</span>」的方法來訓練模型，網路會不斷的展示不同的樣本給系統。
-                    除了使用這個方法，DeepL團隊還使用了其他機器學習的技術來訓練自身的神經網路，這也讓他們能夠取得更金一部的突破。 <br><br>
-
-                    最後一個是<span>網路規模</span>，傳統的網路規模大到只能在專門的計算機上進行分布式的訓練，但在 DeepL
-                    團隊的研究中，他們<span>非常重視參數與網路使用上的效率</span>，這就是他們如何設法實現類似得翻譯品質。即使是在較小、速度較快的伺服器上也能達成相同的高品質翻譯，
-                    因此，DeepL團隊可以向免費用戶提供品質非常高的翻譯結果。<br><br>
-
-                    DeepL 的核心競爭優勢就是爬蟲和機器學習系統，前者能夠抓取網路上超過 10 億句翻譯結果和查詢的大型數據庫，後者在網頁上搜尋相似片段的真實翻譯方法並對其評估，兩者結合使 Linguee
-                    成為了當時「<span>世界上首個翻譯搜尋引擎</span>」。<br><br>
-
-                    <span class="definition" style="color: black;">
-                        <sup>3</sup> 網路拓樸又稱為網路布局，或網路結構。此為電腦網路中，端點間連接的方式。網路上各端點藉由鏈(Link)、節點(Node)或交換中心(Switch)互相連接。
-                    </span>
-                </div>
-            </div>
+            </a>
             <img src="pictures/deeplFooter.png" alt="" class="translateBox" style="padding-bottom: 20px;">
         </div>
         <div id="Microsoft">
-            <img src="pictures/microsoftHeader.png" alt="" class="translateBox">
-            <div class="intro micro">
-                <div class="microContent">
-                    <br>
-                    <h1>Microsoft</h1><br><br>
-                    "<span>Statistical machine translation<sup>4</sup></span> " is the main technology behind Microsoft Translator,
-                    which is based on Microsoft's research in the field of natural language for more than 10 years, and incorporates
-                    the principles of statistics and machine learning. <br><br>
+            <img src="pictures/microsoftHeader.png" alt="" class="translateBox" style="padding-top: 80px;">
+            <a href="https://www.bing.com/translator" target="_blank">
+                <div class="intro micro" style="color: black;">
+                    <div class="microContent">
+                        <br>
+                        <h1>Microsoft</h1><br><br>
+                        "<span>Statistical machine translation<sup>4</sup></span> " is the main technology behind Microsoft Translator,
+                        which is based on Microsoft's research in the field of natural language for more than 10 years, and incorporates
+                        the principles of statistics and machine learning. <br><br>
 
-                    Simply put, this translation system turns "translation" into a machine learning topic, allowing the
-                    computer to continuously <span>judge and learn from the human translations and language conversion
-                    results in the training data</span>, and to promote the self-improvement and optimization of the system algorithm 
-                    through continuous error correction.<br><br>
+                        Simply put, this translation system turns "translation" into a machine learning topic, allowing the
+                        computer to continuously <span>judge and learn from the human translations and language conversion
+                        results in the training data</span>, and to promote the self-improvement and optimization of the system algorithm 
+                        through continuous error correction.<br><br>
 
-                    Through statistical modeling techniques and efficient algorithms, the continuously learning and
-                    optimizing machine translation system learns to match the most appropriate translation results with
-                    the <span>contextual meaning of words and rigid grammatical rules </span>instead of the contextual meaning of words. <br><br>
+                        Through statistical modeling techniques and efficient algorithms, the continuously learning and
+                        optimizing machine translation system learns to match the most appropriate translation results with
+                        the <span>contextual meaning of words and rigid grammatical rules </span>instead of the contextual meaning of words. <br><br>
 
-                    <span class="definition" style="color: black;">
-                        <sup>4</sup> Statistical Machine Translation (SMT) relies mainly on corpus, not grammatical rules. The basic idea of statistical 
-                        machine translation is to construct a statistical translation model through statistical analysis of many parallel corpora, and 
-                        then use this model for translation.
-                    </span>
+                        <span class="definition" style="color: black;">
+                            <sup>4</sup> Statistical Machine Translation (SMT) relies mainly on corpus, not grammatical rules. The basic idea of statistical 
+                            machine translation is to construct a statistical translation model through statistical analysis of many parallel corpora, and 
+                            then use this model for translation.
+                        </span>
+                    </div>
+                    <div class="microContent">
+                        <br>
+                        <h1>微軟</h1><br><br>
+                        “<span>統計機器翻譯<sup>4</sup></span> ”是微軟翻譯器背後的主要技術，它以微軟十幾年來在自然語言領域的研究為基礎，加入了統計學與機器學習的原理。 <br><br>
+
+                        簡單地說，這套翻譯體系將“翻譯”轉變成了一個機器學習的課題，讓計算機不斷地<span>對訓練數據中的人工譯文和語言轉換結果進行判斷與學習</span>，在不斷的糾錯與改正中，促進系統算法的自我完善與優化。<br><br>
+
+                        通過統計建模技術和高效的算法，不斷學習優化的機器翻譯系統能學會<span>根據上下文的語境</span>，而不是單詞的意思和生硬的語法規則來匹配最恰當的翻譯結果。<br><br>
+
+                        <span class="definition" style="color: black;">
+                            <sup>4</sup> 統計機器翻譯 (Statistical Machine Translation，簡稱 SMT)，所依靠的主要是語料庫，而非語法規則。統計機器翻譯的基本思想是
+                            通過對大量的平行語料進行統計分析，構建統計翻譯模型，進而使用此模型進行翻譯。 
+                        </span>
+                    </div>
                 </div>
-                <div class="microContent">
-                    <br>
-                    <h1>微軟</h1><br><br>
-                    “<span>統計機器翻譯<sup>4</sup></span> ”是微軟翻譯器背後的主要技術，它以微軟十幾年來在自然語言領域的研究為基礎，加入了統計學與機器學習的原理。 <br><br>
-
-                    簡單地說，這套翻譯體系將“翻譯”轉變成了一個機器學習的課題，讓計算機不斷地<span>對訓練數據中的人工譯文和語言轉換結果進行判斷與學習</span>，在不斷的糾錯與改正中，促進系統算法的自我完善與優化。<br><br>
-
-                    通過統計建模技術和高效的算法，不斷學習優化的機器翻譯系統能學會<span>根據上下文的語境</span>，而不是單詞的意思和生硬的語法規則來匹配最恰當的翻譯結果。<br><br>
-
-                    <span class="definition" style="color: black;">
-                        <sup>4</sup> 統計機器翻譯 (Statistical Machine Translation，簡稱 SMT)，所依靠的主要是語料庫，而非語法規則。統計機器翻譯的基本思想是
-                        通過對大量的平行語料進行統計分析，構建統計翻譯模型，進而使用此模型進行翻譯。 
-                    </span>
-                </div>
-            </div>
-            <img src="pictures/microsoftFooter.png" alt="" class="translateBox" style="padding-bottom: 20px;">
+            </a>
+            <img src="pictures/microsoftFooter.png" alt="" class="translateBox">
         </div>
         <div id="Amazon">
-            <img src="pictures/amazonHeader.png" alt="" class="translateBox">
+            <img src="pictures/amazonHeader.png" alt="" class="translateBox" style="padding-top: 80pxs;">
             <div class="intro amazon">
                 <div class="amazonContent">
                     <br>
@@ -284,7 +291,7 @@
 
                 </div>
             </div>
-            <img src="pictures/amazonFooter.png" alt="" class="translateBox">
+            <img src="pictures/amazonFooter.png" alt="" class="translateBox" style="padding-bottom: 40px;">
         </div>
     </div>
 
