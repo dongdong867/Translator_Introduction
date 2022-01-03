@@ -59,7 +59,7 @@ footer div a{
 }
 
 #head1{
-    font-size: 225%;
+    font-size: 90px; /* 225% */
     font-family: 'Lucida Sans';
     font-weight: bolder;
 }
